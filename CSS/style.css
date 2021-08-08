@@ -56,6 +56,9 @@
 
 button{
    width: 200px;
+   color:whitesmoke;
+   border-color: darkcyan;
+   background-color: darkslategrey;
 }
 
 
@@ -71,6 +74,7 @@ button{
 
   #c {
       display: flex;
+     
   }
 
   footer{
