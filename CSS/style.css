@@ -1,6 +1,6 @@
 
 
-.left{
+.sideNavBar{
     height:700px;
     float:left;
     width: 200px;
@@ -16,7 +16,7 @@
 
 
 .mywork{
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
 
 .resume{
@@ -36,9 +36,9 @@
 
 
 
-  .right{
-display: flex;
-flex-direction: column;
+  .mainContents{
+    display: flex;
+    flex-direction: column;
     height: 690px;
     width: 100%;
     text-align: center;
@@ -73,7 +73,7 @@ button{
       display: flex;
   }
 
-  .container{
+  footer{
       height: 200px;
       display: flex;
       flex-direction: row;
@@ -89,12 +89,32 @@ button{
   
  }
 
- #icon{
+ .icon{
      width: 25px;
      height: 25px;
-     margin: 10%;
+   
  }
 
  .details{
      display: block;
     }
+
+    ul{
+        width: 200px;
+        height: 70px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        /* border: solid; */
+        justify-content: space-around;
+        align-items: center;
+        padding: 10%
+
+    }
+
+    li {
+        /* display: inline-block; */
+        /* margin: 50%;
+         */
+   
+     }
