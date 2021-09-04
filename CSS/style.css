@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: 'Times New Roman', Times, serif
+}
 .sideNavBar{
     height:700px;
     float:left;
@@ -116,9 +118,12 @@ button{
 
     }
 
-    li {
-        /* display: inline-block; */
-        /* margin: 50%;
-         */
-   
-     }
+  #intro{
+      width: 70%;
+  }
+
+  h1{
+      font-size: x-large;
+
+  }
+  
